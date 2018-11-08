@@ -11,7 +11,6 @@ public class Entreprise {
 
 
     public static Double primeAnnuelleBase(){
-        System.out.print(LocalDate.now().getYear()/2.0);
         return(LocalDate.now().getYear()/2.0);
     }
 }
